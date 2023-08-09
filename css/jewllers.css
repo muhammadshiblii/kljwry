@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.left a{
+    text-decoration: none;
+    color: rgba(37, 33, 33, 0.299);
+}
+.left a:hover{
+    color: black;
+}
+.right a{
+    text-decoration: none;
+    color: rgba(37, 33, 33, 0.299);
+}
+.right a:hover{
+    color: black;
+}
+.left,.right{
+  font-size: 12px;
+}
+.right i{
+    background-color: rgb(222, 3, 3);
+    color: white;
+    font-size: 15px;
+    border-radius: 100%;
+    padding: 6px;
+    margin-right: 10px;
+}
+.secondnav img{
+    width: 50%;
+}  
+/* .secndnavsticky{
+   position: sticky;
+   top: 0;
+} */
+.navcontent span{
+   color: gray;
+   font-weight: bold;
+   margin: 20px;
+} 
+#jewellers{
+    color: red;
+   padding-bottom: 10px;
+   border-bottom: 1px solid red; 
+}
+.navcontent span:hover{
+   color: red;
+   padding-bottom: 10px;
+   border-bottom: 1px solid red;
+}
